@@ -1,24 +1,27 @@
-{
-  "navbarItems": [
-    {
-      "id": 1,
-      "name": "About",
-      "link": "/About"
-    },
-    {
-      "id": 2,
-      "name": "News",
-      "link": "/News"
-    },
-    {
-      "id": 3,
-      "name": "Community",
-      "link": "/Community"
-    },
-    {
-      "id": 4,
-      "name": "Store",
-      "link": "/Store"
-    }
-  ]
-}
+[
+  {
+    "id": 2,
+    "name": "Movies",
+    "link": "/Movies"
+  },
+  {
+    "id": 3,
+    "name": "TV Shows",
+    "link": "/TV Shows"
+  },
+  {
+    "id": 4,
+    "name": "Reality TV",
+    "link": "/Reality TV"
+  },
+  {
+    "id": 5,
+    "name": "Anime",
+    "link": "/Anime"
+  },
+  {
+    "id": 6,
+    "name": "Kids",
+    "link": "/Kids"
+  }
+]

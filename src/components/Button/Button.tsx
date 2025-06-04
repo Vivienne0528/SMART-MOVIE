@@ -14,7 +14,7 @@ interface ButtonProps {
   sizes?: "xs" | "sm" | "md" | "lg" | "xl";
   variants?: "solid" | "outline" | "ghost" | "link";
   bgColor?: string;
-  color?: string;
+  color?: "text-[#FBFCFF]";
   disabled?: true | false;
   radius?:
   | "rounded-none"
@@ -32,7 +32,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({
   children,
   onClick,
-  cursor = 'cursor-pointer',
+  cursor = "cursor-pointer",
   sizes = "md",
   variants = "solid",
   bgColor,
