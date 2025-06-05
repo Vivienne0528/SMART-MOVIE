@@ -17,16 +17,16 @@ interface ButtonProps {
   color?: "text-[#FBFCFF]";
   disabled?: true | false;
   radius?:
-  | "rounded-none"
-  | "rounded-xs"
-  | "rounded-sm"
-  | "rounded-md"
-  | "rounded-lg"
-  | "rounded-xl"
-  | "rounded-2xl"
-  | "rounded-3xl"
-  | "rounded-4xl"
-  | "rounded-full";
+    | "rounded-none"
+    | "rounded-xs"
+    | "rounded-sm"
+    | "rounded-md"
+    | "rounded-lg"
+    | "rounded-xl"
+    | "rounded-2xl"
+    | "rounded-3xl"
+    | "rounded-4xl"
+    | "rounded-full";
 }
 
 const Button: React.FC<ButtonProps> = ({
